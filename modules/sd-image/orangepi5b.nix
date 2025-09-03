@@ -49,7 +49,7 @@ in {
     # Can be increased to make more space for boards requiring to dd u-boot SPL before actual partitions.
     firmwarePartitionOffset = 32;
     firmwarePartitionName = "BOOT";
-    firmwareSize = 200; # MiB
+    firmwareSize = 512; # MiB
 
     populateRootCommands = ''
       mkdir -p ./files/boot
